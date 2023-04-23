@@ -1,4 +1,8 @@
 /* begin */
+.theme-dark .bar-2H7Q9u, .theme-dark .markDash-1ATsxA {
+ background-color: var(--background-tertiary); 
+}
+
 .theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB {
   background-color: var(--background-secondary);
 }
