@@ -1,0 +1,95 @@
+/**
+* @name LilyPichu
+* @author RabbyDevs#0001
+* @description A theme based on @Melonturtle_ stream design, fork of Nyria's version.
+* @version 0.1
+*/
+@import url("https://RabbyDevs.github.io/lilypichu-theme/main.css");
+
+:root {
+  /* --- User variables --- */
+
+  /* Jumping GIF */
+  --jumping-gif: url("https://i.imgur.com/dCd49s0.gif");
+
+  /* Background (if you want an image replace it by : 
+
+  background-tertiary-alt: url("image-link"); without that => */
+  --background-tertiary-alt: #ffc7d4;
+
+  /* Border-radius for the whole theme */
+  --border-radius: 20px;
+}
+
+.theme-dark {
+  /* Text */
+  --text-normal: #f8e1e5;
+  --header-primary: #f8e1e5;
+  --interactive-normal: #fab1bd;
+  --interactive-hover: #ffffff;
+  --channels-default: #f8e1e5a9;
+
+  --text-muted: #e2c1c7;
+  --interactive-muted: #ad8c91;
+
+  --header-secondary: #e2c1c7;
+  /* --interactive-hover: #e2c1c7;
+  --interactive-active: #e2c1c7; */
+
+  /* Background color */
+  --background-primary: #5e3640;
+  --background-secondary: #49292f;
+  --background-secondary-alt: #3b1d24;
+  --background-tertiary: #220f14;
+  --background-floating: #221115;
+  --background-accent: #c5536c;
+  --background-accent-active: #b64a61;
+  --channeltextarea-background: var(--background-secondary);
+  --background-modifier-hover: rgba(56, 31, 31, 0.32);
+  --background-modifier-active: rgba(19, 12, 12, 0.32);
+  --background-modifier-selected: rgba(31, 21, 21, 0.32);
+  --toast-background: #5e3640 !important;
+  --toast-header: #3b1d24 !important;
+  --toast-contents: #49292f !important;
+  --toast-border: #49292f !important;
+  --input-background: var(--background-secondary);
+
+  /* Scrollbar */
+  --scrollbar-auto-thumb: var(--background-tertiary);
+  --scrollbar-auto-track: var(--background-secondary-alt);
+  --scrollbar-thin-thumb: var(--background-tertiary);
+  --scrollbar-thin-track: transparent;
+
+  /* Other */
+  --channel-text-area-placeholder: var(--interactive-normal);
+  --deprecated-quickswitcher-input-background: var(--background-primary);
+  --status-danger: var(--background-accent);
+  --channel-icon: var(--interactive-muted);
+  --brand-experiment: var(--background-accent);
+  --mention-foreground: var(--header-primary);
+  --mention-background: var(--background-accent);
+  --guild-boosting-pink: var(--text-normal);
+  --home-background: var(--background-secondary);
+  --modal-background: var(--background-floating);
+  --modal-footer-background: var(--background-floating);
+  --deprecated-card-bg: var(--background-tertiary);
+  --background-modifier-accent: var(--background-secondary);
+  --button-secondary-background: var(--background-secondary);
+  --brand-experiment-560: var(--background-accent-active);
+  --control-brand-foreground: var(--background-accent-active);
+  --button-outline-primary-border: var(--background-secondary-alt);
+  --button-secondary-background-hover: var(--background-secondary-alt);
+  --button-positive-background-hover: var(--background-primary);
+  --button-outline-primary-background-hover: var(--button-outline-primary-background-hover);
+  --button-outline-primary-border-hover: var(--background-primary);
+  --button-outline-primary-background-active: var(--background-primary);
+  --button-outline-primary-border-active: var(--background-tertiary-alt);
+  --brand-experiment-600: var(--background-accent-active);
+  --primary-600: var(--background-primary);
+  --background-message-highlight: #fab1bd1c;
+  --primary-630: var(--background-tertiary);
+  --brand-experiment-10a: #a36c751c;
+  --info-warning-foreground: var(--background-tertiary-alt);
+  --background-mentioned: #ffc7d42a;
+  --background-mentioned-hover: #b68e972a;
+}
